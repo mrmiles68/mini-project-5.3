@@ -1,2 +1,2 @@
-const date =document.querySelector('#date')
-date.textcontent=moment().format("MMM Do, YY");
+let date =moment();
+$('#date').text(date.format("MMM Do, YYYY"));
