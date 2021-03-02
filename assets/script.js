@@ -4,6 +4,8 @@ var projectType = ""
 var hourlyRate = 0
 var dueDate = ""
 var dueDays = ""
+let duration=moment.duration(end.diff(startTime))
+let hours = duration.asDays();
 var totalEarnings = 0
 
 $('#date').text(date.format("MMM Do, YYYY"));
