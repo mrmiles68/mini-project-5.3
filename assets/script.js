@@ -6,3 +6,10 @@ var hourlyRate = 0
 var dueDate = ""
 var dueDays = ""
 var totalEarnings = 0
+
+calcMoney = function () {
+    hourlyRate = hourlyRate.toFixed(2)
+    personHours = (dueDays * 8)
+    totalEarnings = (hourlyRate * personHours)
+
+}
