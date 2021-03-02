@@ -15,3 +15,7 @@ calcMoney = function () {
     totalEarnings = (hourlyRate * personHours)
 
 }
+$ ( function(){
+ $("#datepicker").datepicker();
+});
+
